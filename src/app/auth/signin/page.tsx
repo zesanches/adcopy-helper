@@ -29,7 +29,7 @@ export default function SignIn() {
     setIsLoading(true);
     try {
       await signIn(email);
-      // After mock sign-in, route to paywall first (to subscribe)
+
       router.replace("/paywall");
     } catch (error) {
       console.error("Sign in error:", error);
