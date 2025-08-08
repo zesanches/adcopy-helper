@@ -55,8 +55,8 @@ export default function LandingPage() {
             </span>
           </h1>
           <p className="text-xl text-gray-300 mb-8 leading-relaxed">
-            Stop struggling with writer's block. Generate high-converting ad
-            copy for your products and services using advanced AI technology.
+            Stop struggling with writer&apos;s block. Generate high-converting
+            ad copy for your products and services using advanced AI technology.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/auth/signin">
